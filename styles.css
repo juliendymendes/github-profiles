@@ -1,0 +1,89 @@
+:root {
+	--default-margin: 25px;
+}
+body {
+	font-family: "Inter", sans-serif;
+	background-color: #ebeff5;
+}
+
+#container {
+	margin: auto;
+	min-width: 300px;
+	max-width: 800px;
+	text-align: center;
+	margin-top: 80px;
+}
+input#username {
+	width: 80%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: #ebeff5;
+}
+
+button {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: #007bff;
+	color: white;
+	cursor: pointer;
+}
+
+.search {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-top: var(--default-margin);
+}
+
+.profile {
+	margin-top: var(--default-margin);
+}
+
+.profile-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
+
+.profile-header img {
+	border-radius: 50%;
+	border: 2px solid #007bff;
+}
+
+.profile-details {
+	display: flex;
+	justify-content: space-between;
+	margin-top: var(--default-margin);
+	flex-wrap: wrap;
+}
+
+.profile-details p {
+	background-color: #007bff;
+	color: whitesmoke;
+	border-radius: 50px;
+	padding: 5px 15px;
+}
+
+.profile-link {
+	display: inline-block;
+	margin-top: var(--default-margin);
+	padding: 10px 20px;
+	background-color: #28a745;
+	color: white;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.profile-link:hover {
+	background-color: #218838;
+}
+
+.profile-bio {
+	margin-top: var(--default-margin);
+	margin-bottom: var(--default-margin);
+	font-style: italic;
+	color: #555;
+}
